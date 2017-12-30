@@ -3,9 +3,13 @@
 @section('title', 'AdminLTE')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+<h1>Dashboard</h1>
 @stop
 
 @section('content')
-    <p>You are logged in!</p>
+<ol class="breadcrumb">
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Library</a></li>
+	<li class="active">Data</li>
+</ol>
 @stop
